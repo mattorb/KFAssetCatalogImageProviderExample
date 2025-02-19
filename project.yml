@@ -1,0 +1,23 @@
+name: KFAssetCatalogImageProviderExample
+options:
+  bundleIdPrefix: com.example
+targets:
+  KFAssetCatalogImageProviderExample:
+    type: application
+    platform: iOS
+    deploymentTarget: "14.0"
+    sources:
+      - KFAssetCatalogImageProviderExample
+    info:
+      path: KFAssetCatalogImageProviderExample/Info.plist
+      properties:
+        CFBundlePackageType: APPL
+        UILaunchStoryboardName: ""
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: true
+    dependencies:
+      - package: KFAssetCatalogImageProvider
+        product: KFAssetCatalogImageProvider
+packages:
+  KFAssetCatalogImageProvider:
+    path: ../KFAssetCatalogImageProvider
