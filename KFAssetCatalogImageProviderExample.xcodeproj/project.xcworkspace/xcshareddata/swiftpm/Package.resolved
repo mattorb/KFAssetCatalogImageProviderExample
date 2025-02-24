@@ -6,7 +6,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mattorb/KFAssetCatalogImageProvider",
       "state" : {
-        "revision" : "b8dc8f0ae099a1f1e3a8b047bc9d48689381c44f",
+        "revision" : "e7ee4f28d408d95020701ae608b4167fcd41e248",
         "version" : "0.1.0"
       }
     },
