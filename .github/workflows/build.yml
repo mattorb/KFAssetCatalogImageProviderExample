@@ -13,4 +13,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build
-        run: xcodebuild build -scheme "$SCHEME" -skipPackagePluginValidation -skipMacroValidation
+        run: xcodebuild build -scheme "$SCHEME" -skipPackagePluginValidation -skipMacroValidation CODE_SIGNING_ALLOWED=NO
